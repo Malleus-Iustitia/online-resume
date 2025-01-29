@@ -1,14 +1,23 @@
-header {
+header, footer {
     text-align: center;
 }
-footer {
-    text-align: center;
-}
-table {
-    width: 700px;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 h3 {
     text-decoration: underline;
+}
+td {
+    width: 100px;  
+}
+.margins {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.history table {
+    width: 100%;
+    margin-left: 20px;
+
+}
+.objective p {
+    margin-left: 20px;
 }
