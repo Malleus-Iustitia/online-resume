@@ -34,6 +34,9 @@ td {
     html { /* default rem = 16px */
         font-size: 12px;
     }
+    hr {
+        width: 85%;
+    }
     .resume {
         width: 85%;
     }
