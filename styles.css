@@ -2,22 +2,48 @@ header, footer {
     text-align: center;
 }
 
+hr {
+    width: 60%;
+}
+
 h3 {
     text-decoration: underline;
 }
 td {
     width: 100px;  
 }
-.margins {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto 0 auto;
 }
+
 .history table {
     width: 100%;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
 
 }
+
 .objective p {
-    margin-left: 20px;
+    margin: 0 0 0 20px;
+}
+
+@media (max-width: 680px) {
+    html { /* default rem = 16px */
+        font-size: 12px;
+    }
+    .resume {
+        width: 85%;
+    }
+    .headerImg {
+        height: 250px;
+    }
+    .content table {
+        margin: 0 0 0 8px;
+    }
+    .content ul {
+        padding: 0 0 0 18px;
+    }
 }
